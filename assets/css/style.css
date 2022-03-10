@@ -180,7 +180,7 @@ select {
 }
 body,
 button,
-input,
+ 
 select,
 textarea {
   font-family: urbanist, sans-serif;
@@ -353,11 +353,9 @@ p > video {
   margin-bottom: 0;
 }
 button,
-input {
-  line-height: normal;
-}
+ 
 button,
-input,
+ 
 select,
 textarea {
   font-size: 100%;
@@ -365,7 +363,7 @@ textarea {
   margin: 0;
   vertical-align: baseline;
 }
-input,
+ 
 textarea,
 select {
   font-size: 14px;
@@ -379,9 +377,7 @@ textarea {
   overflow: auto;
   vertical-align: top;
 }
-input[type="checkbox"] {
-  display: inline;
-}
+ 
 button,
 input[type="button"],
 input[type="reset"],
@@ -391,7 +387,7 @@ input[type="submit"] {
   -webkit-appearance: button;
   border: 0;
 }
-input[type="checkbox"],
+ 
 input[type="radio"] {
   padding: 0;
   width: 18px;
